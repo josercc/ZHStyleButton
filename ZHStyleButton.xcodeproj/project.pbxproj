@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D5283151F17570F009D72DB /* ZHStyleButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D52830B1F17570E009D72DB /* ZHStyleButton.framework */; };
+		5D52831A1F17570F009D72DB /* ZHStyleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5283191F17570F009D72DB /* ZHStyleButtonTests.m */; };
+		5D5283691F1757F4009D72DB /* ZHStyleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5283671F1757F4009D72DB /* ZHStyleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D52836A1F1757F4009D72DB /* ZHStyleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5283681F1757F4009D72DB /* ZHStyleButton.m */; };
+		5D52837A1F1759B1009D72DB /* ZHStyleButtonConfigurationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5283781F1759B1009D72DB /* ZHStyleButtonConfigurationModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D52837B1F1759B1009D72DB /* ZHStyleButtonConfigurationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5283791F1759B1009D72DB /* ZHStyleButtonConfigurationModel.m */; };
+		5D52837E1F175BBD009D72DB /* ZHStyleButtonType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D52837C1F175BBD009D72DB /* ZHStyleButtonType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D52837F1F175BBD009D72DB /* ZHStyleButtonType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52837D1F175BBD009D72DB /* ZHStyleButtonType.m */; };
+		5D5283841F177603009D72DB /* ZHStyleButtonBackgroundImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5283821F177603009D72DB /* ZHStyleButtonBackgroundImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5283851F177603009D72DB /* ZHStyleButtonBackgroundImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5283831F177603009D72DB /* ZHStyleButtonBackgroundImageManager.m */; };
+		5D5283881F17762A009D72DB /* ZHStyleButtonBackgroundImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5283861F17762A009D72DB /* ZHStyleButtonBackgroundImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5283891F17762A009D72DB /* ZHStyleButtonBackgroundImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5283871F17762A009D72DB /* ZHStyleButtonBackgroundImageCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D5283161F17570F009D72DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5283021F17570E009D72DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D52830A1F17570E009D72DB;
+			remoteInfo = ZHStyleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D52830B1F17570E009D72DB /* ZHStyleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHStyleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D52830F1F17570E009D72DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5283141F17570F009D72DB /* ZHStyleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHStyleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5283191F17570F009D72DB /* ZHStyleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHStyleButtonTests.m; sourceTree = "<group>"; };
+		5D52831B1F17570F009D72DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5283671F1757F4009D72DB /* ZHStyleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStyleButton.h; sourceTree = "<group>"; };
+		5D5283681F1757F4009D72DB /* ZHStyleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStyleButton.m; sourceTree = "<group>"; };
+		5D5283781F1759B1009D72DB /* ZHStyleButtonConfigurationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStyleButtonConfigurationModel.h; sourceTree = "<group>"; };
+		5D5283791F1759B1009D72DB /* ZHStyleButtonConfigurationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStyleButtonConfigurationModel.m; sourceTree = "<group>"; };
+		5D52837C1F175BBD009D72DB /* ZHStyleButtonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStyleButtonType.h; sourceTree = "<group>"; };
+		5D52837D1F175BBD009D72DB /* ZHStyleButtonType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStyleButtonType.m; sourceTree = "<group>"; };
+		5D5283821F177603009D72DB /* ZHStyleButtonBackgroundImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStyleButtonBackgroundImageManager.h; sourceTree = "<group>"; };
+		5D5283831F177603009D72DB /* ZHStyleButtonBackgroundImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStyleButtonBackgroundImageManager.m; sourceTree = "<group>"; };
+		5D5283861F17762A009D72DB /* ZHStyleButtonBackgroundImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStyleButtonBackgroundImageCache.h; sourceTree = "<group>"; };
+		5D5283871F17762A009D72DB /* ZHStyleButtonBackgroundImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStyleButtonBackgroundImageCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5283071F17570E009D72DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5283111F17570F009D72DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5283151F17570F009D72DB /* ZHStyleButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5283011F17570E009D72DB = {
+			isa = PBXGroup;
+			children = (
+				5D52830D1F17570E009D72DB /* ZHStyleButton */,
+				5D5283181F17570F009D72DB /* ZHStyleButtonTests */,
+				5D52830C1F17570E009D72DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D52830C1F17570E009D72DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D52830B1F17570E009D72DB /* ZHStyleButton.framework */,
+				5D5283141F17570F009D72DB /* ZHStyleButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D52830D1F17570E009D72DB /* ZHStyleButton */ = {
+			isa = PBXGroup;
+			children = (
+				5D52830F1F17570E009D72DB /* Info.plist */,
+				5D5283671F1757F4009D72DB /* ZHStyleButton.h */,
+				5D5283681F1757F4009D72DB /* ZHStyleButton.m */,
+				5D5283781F1759B1009D72DB /* ZHStyleButtonConfigurationModel.h */,
+				5D5283791F1759B1009D72DB /* ZHStyleButtonConfigurationModel.m */,
+				5D52837C1F175BBD009D72DB /* ZHStyleButtonType.h */,
+				5D52837D1F175BBD009D72DB /* ZHStyleButtonType.m */,
+				5D5283821F177603009D72DB /* ZHStyleButtonBackgroundImageManager.h */,
+				5D5283831F177603009D72DB /* ZHStyleButtonBackgroundImageManager.m */,
+				5D5283861F17762A009D72DB /* ZHStyleButtonBackgroundImageCache.h */,
+				5D5283871F17762A009D72DB /* ZHStyleButtonBackgroundImageCache.m */,
+			);
+			path = ZHStyleButton;
+			sourceTree = "<group>";
+		};
+		5D5283181F17570F009D72DB /* ZHStyleButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D5283191F17570F009D72DB /* ZHStyleButtonTests.m */,
+				5D52831B1F17570F009D72DB /* Info.plist */,
+			);
+			path = ZHStyleButtonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5D5283081F17570E009D72DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5283691F1757F4009D72DB /* ZHStyleButton.h in Headers */,
+				5D5283881F17762A009D72DB /* ZHStyleButtonBackgroundImageCache.h in Headers */,
+				5D5283841F177603009D72DB /* ZHStyleButtonBackgroundImageManager.h in Headers */,
+				5D52837E1F175BBD009D72DB /* ZHStyleButtonType.h in Headers */,
+				5D52837A1F1759B1009D72DB /* ZHStyleButtonConfigurationModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5D52830A1F17570E009D72DB /* ZHStyleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D52831F1F17570F009D72DB /* Build configuration list for PBXNativeTarget "ZHStyleButton" */;
+			buildPhases = (
+				5D5283061F17570E009D72DB /* Sources */,
+				5D5283071F17570E009D72DB /* Frameworks */,
+				5D5283081F17570E009D72DB /* Headers */,
+				5D5283091F17570E009D72DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHStyleButton;
+			productName = ZHStyleButton;
+			productReference = 5D52830B1F17570E009D72DB /* ZHStyleButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D5283131F17570F009D72DB /* ZHStyleButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5283221F17570F009D72DB /* Build configuration list for PBXNativeTarget "ZHStyleButtonTests" */;
+			buildPhases = (
+				5D5283101F17570F009D72DB /* Sources */,
+				5D5283111F17570F009D72DB /* Frameworks */,
+				5D5283121F17570F009D72DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5283171F17570F009D72DB /* PBXTargetDependency */,
+			);
+			name = ZHStyleButtonTests;
+			productName = ZHStyleButtonTests;
+			productReference = 5D5283141F17570F009D72DB /* ZHStyleButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5283021F17570E009D72DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张行";
+				TargetAttributes = {
+					5D52830A1F17570E009D72DB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UL78A6B4GH;
+						ProvisioningStyle = Automatic;
+					};
+					5D5283131F17570F009D72DB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UL78A6B4GH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D5283051F17570E009D72DB /* Build configuration list for PBXProject "ZHStyleButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D5283011F17570E009D72DB;
+			productRefGroup = 5D52830C1F17570E009D72DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D52830A1F17570E009D72DB /* ZHStyleButton */,
+				5D5283131F17570F009D72DB /* ZHStyleButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5283091F17570E009D72DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5283121F17570F009D72DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5283061F17570E009D72DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D52837F1F175BBD009D72DB /* ZHStyleButtonType.m in Sources */,
+				5D5283851F177603009D72DB /* ZHStyleButtonBackgroundImageManager.m in Sources */,
+				5D5283891F17762A009D72DB /* ZHStyleButtonBackgroundImageCache.m in Sources */,
+				5D52837B1F1759B1009D72DB /* ZHStyleButtonConfigurationModel.m in Sources */,
+				5D52836A1F1757F4009D72DB /* ZHStyleButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5283101F17570F009D72DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D52831A1F17570F009D72DB /* ZHStyleButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D5283171F17570F009D72DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D52830A1F17570E009D72DB /* ZHStyleButton */;
+			targetProxy = 5D5283161F17570F009D72DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D52831D1F17570F009D72DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D52831E1F17570F009D72DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D5283201F17570F009D72DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UL78A6B4GH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZHStyleButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josercc.zhanghang.ZHStyleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5D5283211F17570F009D72DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UL78A6B4GH;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZHStyleButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josercc.zhanghang.ZHStyleButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5D5283231F17570F009D72DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UL78A6B4GH;
+				INFOPLIST_FILE = ZHStyleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josercc.zhanghang.ZHStyleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D5283241F17570F009D72DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UL78A6B4GH;
+				INFOPLIST_FILE = ZHStyleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josercc.zhanghang.ZHStyleButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5283051F17570E009D72DB /* Build configuration list for PBXProject "ZHStyleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D52831D1F17570F009D72DB /* Debug */,
+				5D52831E1F17570F009D72DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D52831F1F17570F009D72DB /* Build configuration list for PBXNativeTarget "ZHStyleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5283201F17570F009D72DB /* Debug */,
+				5D5283211F17570F009D72DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5283221F17570F009D72DB /* Build configuration list for PBXNativeTarget "ZHStyleButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5283231F17570F009D72DB /* Debug */,
+				5D5283241F17570F009D72DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D5283021F17570E009D72DB /* Project object */;
+}
