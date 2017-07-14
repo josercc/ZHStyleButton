@@ -84,3 +84,13 @@ pod 'ZHStyleButton'
 
 可以参考下面的例子：
 
+[例子1使用说明](例子1使用说明.md)
+
+[例子2使用说明](例子2使用说明.md)
+
+## 特别注意
+
+* 必须是 `ZHStyleButton`的子类
+* 必须实现 `ZHStyleButtonProtocol`协议
+* 必须类型是 `Custom`
+
